@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Websy Labs - Websites, Apps & Digital Solutions</title>
+
+    <meta name="description" content="Websy Labs provides affordable websites, apps, and digital solutions. Founded by Muhammad Jeehan.">
+    <meta name="keywords" content="Websy Labs, website development, app development, Kerala web design">
+    <meta name="author" content="Muhammad Jeehan">
+
+    <!-- WhatsApp Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px;
+            flex-wrap: wrap;
+        }
+
+        .left {
+            max-width: 600px;
+        }
+
+        .logo {
+            width: 220px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin: 10px 0;
+        }
+
+        p {
+            color: #cbd5f5;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #3b82f6;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .right {
+            text-align: right;
+            flex: 1;
+        }
+
+        .profile {
+            width: 100px;
+            border-radius: 50%;
+            margin-right: 40px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #94a3b8;
+            font-size: 14px;
+        }
+
+        /* WhatsApp Button */
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            color: white;
+            font-size: 28px;
+            padding: 14px 16px;
+            border-radius: 50%;
+            text-decoration: none;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 1000;
+            transition: 0.3s;
+        }
+
+        .whatsapp-btn:hover {
+            transform: scale(1.1);
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .right {
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            .profile {
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- LEFT -->
+        <div class="left">
+            <img src="logo.PNG" alt="Websy Labs Logo" class="logo">
+
+            <h1>Websy Labs</h1>
+
+            <p>
+                Websy Labs is a digital service company providing websites, apps, 
+                and modern solutions at affordable prices. We help businesses grow online.
+            </p>
+
+            <a href="mailto:websylabs.official@gmail.com" class="btn">Contact Us</a>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="right">
+            <img src="founder.JPG" alt="Muhammad Jeehan" class="profile">
+        </div>
+    </div>
+
+    <footer>
+        <p>Founder: Muhammad Jeehan</p>
+        <p>📞 9544014662</p>
+        <p>📧 websylabs.official@gmail.com</p>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/919544014662?text=Hi%20Websy%20Labs%20I%20need%20a%20website" 
+       class="whatsapp-btn" target="_blank">
+       <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
